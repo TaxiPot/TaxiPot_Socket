@@ -159,7 +159,8 @@ public class MainChat extends JFrame implements ActionListener, Runnable {
                 cc.sendTF.setText("");
             }
         } else if (ob == bt_exit) {//나가기(프로그램종료) 요청
-            System.exit(0);//현재 응용프로그램 종료하기
+            sendMsg("500|");
+            System.exit(0);
         }
 
     }//actionPerformed
@@ -167,7 +168,7 @@ public class MainChat extends JFrame implements ActionListener, Runnable {
     public void connect() {//(소켓)서버연결 요청
         try {
             //Socket s = new Socket(String host<서버ip>, int port<서비스번호>);
-            Socket s = new Socket("localhost", 5000);//연결시도
+            Socket s = new Socket("10.156.145.149", 5000);//연결시도
             in = new BufferedReader(new InputStreamReader(s.getInputStream()));
             //in: 서버메시지 읽기객체    서버-----msg------>클라이언트
             out = s.getOutputStream();

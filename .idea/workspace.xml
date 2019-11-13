@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fd8239cd-d642-4784-8ccd-d72f4944f334" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TaxiPot_Socket/MainChat$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TaxiPot_Socket/MainChat$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TaxiPot_Socket/MainChat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TaxiPot_Socket/MainChat.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainChat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service.java" afterDir="false" />
@@ -91,8 +92,17 @@
       <workItem from="1573210426628" duration="12000" />
       <workItem from="1573263142235" duration="3342000" />
       <workItem from="1573301880878" duration="2573000" />
-      <workItem from="1573624384106" duration="618000" />
+      <workItem from="1573624384106" duration="5343000" />
+      <workItem from="1573651216839" duration="2993000" />
     </task>
+    <task id="LOCAL-00001" summary="[Refactor] 코드 리팩토링 및 방 새로 만들 때 방 데이터가 남아있거나 방을 들어갈 때 유저 챗이 모두 초기화되는 경우 해결">
+      <created>1573625223533</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573625223533</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,5 +120,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[Refactor] 코드 리팩토링 및 방 새로 만들 때 방 데이터가 남아있거나 방을 들어갈 때 유저 챗이 모두 초기화되는 경우 해결" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Refactor] 코드 리팩토링 및 방 새로 만들 때 방 데이터가 남아있거나 방을 들어갈 때 유저 챗이 모두 초기화되는 경우 해결" />
   </component>
 </project>

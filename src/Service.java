@@ -58,7 +58,6 @@ public class Service extends Thread {
                         case "100":
                             allV.add(this);
                             waitV.add(this);
-
                             break;
 
                         case "150":
@@ -154,6 +153,13 @@ public class Service extends Thread {
 
                             //대기실에 방정보 다시출력
                             messageWait("160|" + getRoomInfo());
+                            break;
+
+                        case "500":
+                            allV.remove(this);
+                            waitV.remove(this);
+
+                            messageWait("180|" + getWaitInwon());
                             break;
 
                     }//서버 switch
