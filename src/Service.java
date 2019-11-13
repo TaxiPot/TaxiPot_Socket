@@ -80,6 +80,8 @@ public class Service extends Thread {
                             waitV.remove(this);
                             myRoom.userV.add(this);
 
+                            messageTo("205|test");
+
                             messageRoom("200|" + nickName);//방인원에게 입장 알림
 
                             //대기실 사용자들에게 방정보를 출력

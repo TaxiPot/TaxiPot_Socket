@@ -9,6 +9,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.net.Socket;
 import java.net.UnknownHostException;
+import java.util.UUID;
 import java.util.Vector;
 
 import javax.swing.JButton;
@@ -118,6 +119,7 @@ public class MainChat extends JFrame implements ActionListener, Runnable {
         Object ob = e.getSource();
         if (ob == bt_create) {//방만들기 요청
             String title = JOptionPane.showInputDialog(this, "방제목:");
+//            String title = UUID.randomUUID().toString();
             //방제목을 서버에게 전달
             sendMsg("160|" + title);
 
@@ -231,7 +233,6 @@ public class MainChat extends JFrame implements ActionListener, Runnable {
                         break;
 
                     case "200"://대화방 입장
-                        cc.ta.setText("");
                         cc.ta.append("=========[" + msgs[1] + "]님 입장=========\n");
                         cc.ta.setCaretPosition(cc.ta.getText().length());
                         break;
